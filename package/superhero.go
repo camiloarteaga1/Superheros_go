@@ -24,7 +24,7 @@ type Superhero struct {
 
 var Superheroes = map[string]Superhero{
 
-	"wolverine": {
+	"Wolverine": {
 		Name: "Wolverine",
 		Biography: struct {
 			FullName string "json:\"fullName\""
@@ -59,7 +59,7 @@ var Superheroes = map[string]Superhero{
 		},
 	},
 
-	"spider-man": {
+	"Spider-Man": {
 		Name: "Spider-Man",
 		Biography: struct {
 			FullName string "json:\"fullName\""

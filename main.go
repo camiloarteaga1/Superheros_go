@@ -2,8 +2,9 @@
 package main
 
 import (
-	superhero "back-end/package"
 	"net/http"
+
+	superhero "github.com/camiloarteaga1/Superheros_go/package"
 )
 
 func main() {
